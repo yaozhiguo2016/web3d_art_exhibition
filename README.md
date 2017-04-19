@@ -1,0 +1,2 @@
+# web3d_art_exhibition
+一个基于babylonjs的web3d个人画展模型，纯js脚本
