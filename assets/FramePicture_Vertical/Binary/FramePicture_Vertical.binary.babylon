@@ -1,0 +1,289 @@
+{
+  "producer": {
+    "name": "3dsmax",
+    "version": "2",
+    "exporter_version": "0.4.5",
+    "file": "FramePicture_Vertical.babylon"
+  },
+  "autoClear": true,
+  "clearColor": [
+    0.0,
+    0.4471,
+    1.0
+  ],
+  "ambientColor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "fogMode": 0,
+  "fogColor": null,
+  "fogStart": 0.0,
+  "fogEnd": 0.0,
+  "fogDensity": 0.0,
+  "gravity": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "physicsEnabled": false,
+  "physicsGravity": null,
+  "cameras": [
+    {
+      "name": "Default camera",
+      "id": "4e66da7b-6a2a-464d-b6bd-21dc5bf064f3",
+      "parentId": null,
+      "lockedTargetId": null,
+      "type": null,
+      "position": [
+        "-Infinity",
+        "-Infinity",
+        "-Infinity"
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "target": [
+        "-Infinity",
+        "-Infinity",
+        "-Infinity"
+      ],
+      "fov": 0.8,
+      "minZ": 1.0,
+      "maxZ": "Infinity",
+      "speed": "Infinity",
+      "inertia": 0.9,
+      "checkCollisions": false,
+      "applyGravity": false,
+      "ellipsoid": null,
+      "autoAnimate": false,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 0,
+      "autoAnimateLoop": false,
+      "animations": null
+    }
+  ],
+  "activeCameraID": "4e66da7b-6a2a-464d-b6bd-21dc5bf064f3",
+  "lights": [
+    {
+      "name": "Default light",
+      "id": "c739a9a1-1a55-4751-ab96-aafef27a7864",
+      "parentId": null,
+      "position": null,
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "type": 3,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "intensity": 1.0,
+      "range": 3.40282347E+38,
+      "exponent": 0.0,
+      "angle": 0.0,
+      "groundColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "excludedMeshesIds": null,
+      "includedOnlyMeshesIds": null,
+      "autoAnimate": false,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 0,
+      "autoAnimateLoop": false,
+      "animations": null
+    }
+  ],
+  "meshes": [
+    {
+      "id": "a5690d06-c0a7-4cb8-a2c0-aa313baaaf1c",
+      "parentId": null,
+      "materialId": "c40d3f19-0322-40d5-9323-7ee97a5adad0",
+      "isEnabled": true,
+      "isVisible": true,
+      "pickable": false,
+      "pivotMatrix": null,
+      "positions": null,
+      "normals": null,
+      "uvs": null,
+      "uvs2": null,
+      "colors": null,
+      "hasVertexAlpha": false,
+      "matricesIndices": null,
+      "matricesWeights": null,
+      "matricesIndicesExtra": null,
+      "matricesWeightsExtra": null,
+      "indices": null,
+      "checkCollisions": false,
+      "receiveShadows": true,
+      "infiniteDistance": false,
+      "billboardMode": 0,
+      "visibility": 1.0,
+      "subMeshes": null,
+      "instances": [],
+      "skeletonId": -1,
+      "numBoneInfluencers": 0,
+      "showBoundingBox": false,
+      "showSubMeshesBoundingBox": false,
+      "applyFog": true,
+      "alphaIndex": 1000,
+      "physicsImpostor": 0,
+      "physicsMass": 0.0,
+      "physicsFriction": 0.0,
+      "physicsRestitution": 0.0,
+      "name": "FramePicture006",
+      "position": [
+        -43.9725,
+        -16.4083,
+        -5.4192
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scaling": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "rotationQuaternion": null,
+      "actions": null,
+      "animations": [],
+      "autoAnimate": true,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 100,
+      "autoAnimateLoop": true,
+      "boundingBoxMinimum": [
+        4377.254,
+        1227.47107,
+        234.8506
+      ],
+      "boundingBoxMaximum": [
+        4417.254,
+        2054.19287,
+        848.9927
+      ],
+      "delayLoadingFile": "FramePicture_Vertical.FramePicture006.a5690d06-c0a7-4cb8-a2c0-aa313baaaf1c.babylonbinarymeshdata",
+      "hasUVs": true,
+      "_binaryInfo": {
+        "positionsAttrDesc": {
+          "count": 756,
+          "stride": 3,
+          "offset": 0,
+          "dataType": 1
+        },
+        "normalsAttrDesc": {
+          "count": 756,
+          "stride": 3,
+          "offset": 3024,
+          "dataType": 1
+        },
+        "uvsAttrDesc": {
+          "count": 504,
+          "stride": 2,
+          "offset": 6048,
+          "dataType": 1
+        },
+        "indicesAttrDesc": {
+          "count": 252,
+          "stride": 1,
+          "offset": 8064,
+          "dataType": 0
+        },
+        "subMeshesAttrDesc": {
+          "count": 1,
+          "stride": 5,
+          "offset": 9072,
+          "dataType": 0
+        }
+      }
+    }
+  ],
+  "sounds": [],
+  "materials": [
+    {
+      "ambient": [
+        0.5882,
+        0.5882,
+        0.5882
+      ],
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "diffuseTexture": {
+        "name": "FramePictureVertical.jpg",
+        "level": 1.0,
+        "hasAlpha": false,
+        "getAlphaFromRGB": false,
+        "coordinatesMode": 0,
+        "isCube": false,
+        "uOffset": 0.0,
+        "vOffset": 0.0,
+        "uScale": 1.0,
+        "vScale": 1.0,
+        "uAng": 0.0,
+        "vAng": 0.0,
+        "wAng": 0.0,
+        "wrapU": 1,
+        "wrapV": 1,
+        "coordinatesIndex": 0,
+        "isRenderTarget": false,
+        "renderTargetSize": 0,
+        "mirrorPlane": null,
+        "renderList": null,
+        "animations": []
+      },
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "lightmapTexture": null,
+      "useLightmapAsShadowmap": false,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null,
+      "useSpecularOverAlpha": true,
+      "name": "FramePicture_Vertical",
+      "id": "c40d3f19-0322-40d5-9323-7ee97a5adad0",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "alpha": 1.0
+    }
+  ],
+  "multiMaterials": [],
+  "particleSystems": null,
+  "lensFlareSystems": null,
+  "shadowGenerators": [],
+  "skeletons": [],
+  "actions": null,
+  "useDelayedTextureLoading": true
+}

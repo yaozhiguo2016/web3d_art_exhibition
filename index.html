@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>3D展示</title>
+        <style>
+            html, body
+            {
+                overflow: hidden;
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            #renderCanvas
+            {
+                width: 100%;
+                height: 100%;
+                touch-action: none;
+            }
+        </style>
+        <script src="src/lib/jquery-1.9.1.min.js"></script>
+        <script src="src/lib/babylon.2.4.max.js"></script>
+        <script src="src/lib/hand.min.1.3.8.js"></script>
+        <script src="src/lib/cannon.js"></script>
+        <script src="src/lib/device.min.js"></script>
+        <script src="src/lib/hammer.2.0.8-min.js"></script>
+        <!-- ------------- test ------------- -->
+        <script src="src/dist/castorGUI.min.js"></script>
+        <script src="src/app/ScriptLoader.js"></script>
+    </head>
+    <body>
+        <canvas id="renderCanvas">Sorry,您的浏览器不支持WebGL，建议使用Chrome，IE11以上，360极速等浏览器</canvas>
+        <script type="text/javascript">
+            //下载浏览器
+            function downloadBrowser(){
+                if(confirm("您的浏览器版本太低，请先下载再安装！")){
+                    location.href="http://rj.baidu.com/soft/detail/14744.html?ald";
+                }else{
+                //    location.href="http://rj.baidu.com/soft/detail/14744.html?ald";
+                }
+            }
+
+            //浏览器是否支持WebGl的判断
+            function isWebGLSupported(){
+                var canvas = document.querySelector("#renderCanvas");
+                var gl = null;
+                var names = ["webgl","experimental-webgl","webkit-3d","moz-webgl"];
+                for(var i = 0; i < names.length; i++){
+                    try{
+                        gl = canvas.getContext(names[i]);
+                        break;
+                    }catch (e){
+                        continue;
+                    }
+                }
+                return !(gl == null);
+            }
+            //是否支持webgl
+            var isSupportWebGl = isWebGLSupported();
+            if(!isSupportWebGl){
+                downloadBrowser();
+            }
+        </script>
+        <script>
+            //获取url中的参数
+            function getUrlParam(name) {
+                var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+                var r = window.location.search.substr(1).match(reg);  //匹配目标参数
+                if (r != null) return unescape(r[2]); return null; //返回参数值
+            }
+            if (APP.AppConfig.mode === 'dev'){
+                // Get the canvas element from our HTML below
+                var canvas = $('#renderCanvas').get(0);
+                var main = new APP.Main(canvas);
+                main.start(1);
+            }else{
+                //获取当前地址栏的域名
+                var host = 'http://' + window.location.host;
+                var url = host + '/api.php?';
+                var roomIndex = parseInt(getUrlParam('zg'));
+                $(function(){
+                    $.ajax({
+                        type: "GET",
+                        url: url,
+                        data: {zg:roomIndex},
+                        dataType: "json",
+                        success: function(data){
+                            if (!data.room){
+                                alert('The data package returned from server is not illegal!');
+                                return;
+                            }
+                            var roomNum = parseInt(data.room);
+                            var roomInfo = APP.AppConfig.getRoomInfo(roomNum);
+                            roomInfo['name'] = data.name;
+                            roomInfo['mp'] = data.mp;
+                            roomInfo['host'] = host;
+                            for (var key in data['pics']){
+                                if (!roomInfo['pics']['p'+key])continue;
+                                var imgUrl = data['pics'][key];
+                                var idx = imgUrl.lastIndexOf('.');
+                                var startStr = imgUrl.substring(0, idx);
+                                var finalUrl = startStr + 'pic' + imgUrl.substring(idx, imgUrl.length);
+                                //roomInfo['pics']['p'+key]['pic'] = host + data['pics'][key];
+                                roomInfo['pics']['p'+key]['pic'] = host + finalUrl;
+                            }
+                            for (var k2 in data['pic_names']){
+                                if (!roomInfo['pics']['p'+k2])continue;
+                                roomInfo['pics']['p'+k2]['descName'] = data['pic_names'][k2];
+                            }
+                            for (var k3 in data['pic_types']){
+                                if (!roomInfo['pics']['p'+k3])continue;
+                                roomInfo['pics']['p'+k3]['descType'] = data['pic_types'][k3];
+                            }
+                            for (var k4 in data['pic_dates']){
+                                if (!roomInfo['pics']['p'+k4])continue;
+                                roomInfo['pics']['p'+k4]['descDate'] = data['pic_dates'][k4];
+                            }
+                            for (var k5 in data['pic_contents']){
+                                if (!roomInfo['pics']['p'+k5])continue;
+                                roomInfo['pics']['p'+k5]['descContent'] = data['pic_contents'][k5];
+                            }
+                            // Get the canvas element from our HTML below
+                            var canvas = $('#renderCanvas').get(0);
+                            var main = new APP.Main(canvas);
+                            main.start(roomNum);
+                        }
+                    });
+                });
+            }
+
+            // Get the canvas element from our HTML below
+            /*var canvas = $('#renderCanvas').get(0);
+            var main = new APP.Main(canvas);
+            main.start(5);*/
+        </script>
+    </body>
+</html>

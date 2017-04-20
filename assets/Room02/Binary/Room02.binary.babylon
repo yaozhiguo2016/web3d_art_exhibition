@@ -1,0 +1,2029 @@
+{
+  "producer": {
+    "name": "3dsmax",
+    "version": "2",
+    "exporter_version": "0.4.5",
+    "file": "Room02.babylon"
+  },
+  "autoClear": true,
+  "clearColor": [
+    0.0,
+    0.5176,
+    1.0
+  ],
+  "ambientColor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "fogMode": 0,
+  "fogColor": null,
+  "fogStart": 0.0,
+  "fogEnd": 0.0,
+  "fogDensity": 0.0,
+  "gravity": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "physicsEnabled": false,
+  "physicsGravity": null,
+  "cameras": [
+    {
+      "name": "Default camera",
+      "id": "a84f0ae3-6999-4e9f-b91e-b9d2ffc0b660",
+      "parentId": null,
+      "lockedTargetId": null,
+      "type": null,
+      "position": [
+        "-Infinity",
+        "-Infinity",
+        "-Infinity"
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "target": [
+        "-Infinity",
+        "-Infinity",
+        "-Infinity"
+      ],
+      "fov": 0.8,
+      "minZ": 1.0,
+      "maxZ": "Infinity",
+      "speed": "Infinity",
+      "inertia": 0.9,
+      "checkCollisions": false,
+      "applyGravity": false,
+      "ellipsoid": null,
+      "autoAnimate": false,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 0,
+      "autoAnimateLoop": false,
+      "animations": null
+    }
+  ],
+  "activeCameraID": "a84f0ae3-6999-4e9f-b91e-b9d2ffc0b660",
+  "lights": [
+    {
+      "name": "Default light",
+      "id": "e712cfda-7ff6-44ad-b33c-3fbfb34f3351",
+      "parentId": null,
+      "position": null,
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "type": 3,
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "intensity": 1.0,
+      "range": 3.40282347E+38,
+      "exponent": 0.0,
+      "angle": 0.0,
+      "groundColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "excludedMeshesIds": null,
+      "includedOnlyMeshesIds": null,
+      "autoAnimate": false,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 0,
+      "autoAnimateLoop": false,
+      "animations": null
+    }
+  ],
+  "meshes": [
+    {
+      "id": "d6addeda-bbbb-4968-b1c3-a7ec82948a1d",
+      "parentId": null,
+      "materialId": "fa09751a-072a-4043-ad4a-f1b65da3762e",
+      "isEnabled": true,
+      "isVisible": true,
+      "pickable": false,
+      "pivotMatrix": null,
+      "positions": null,
+      "normals": null,
+      "uvs": null,
+      "uvs2": null,
+      "colors": null,
+      "hasVertexAlpha": false,
+      "matricesIndices": null,
+      "matricesWeights": null,
+      "matricesIndicesExtra": null,
+      "matricesWeightsExtra": null,
+      "indices": null,
+      "checkCollisions": false,
+      "receiveShadows": true,
+      "infiniteDistance": false,
+      "billboardMode": 0,
+      "visibility": 1.0,
+      "subMeshes": null,
+      "instances": [],
+      "skeletonId": -1,
+      "numBoneInfluencers": 0,
+      "showBoundingBox": false,
+      "showSubMeshesBoundingBox": false,
+      "applyFog": true,
+      "alphaIndex": 1000,
+      "physicsImpostor": 0,
+      "physicsMass": 0.0,
+      "physicsFriction": 0.0,
+      "physicsRestitution": 0.0,
+      "name": "Wall01",
+      "position": [
+        220.2213,
+        -32.7886,
+        -90.7553
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scaling": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "rotationQuaternion": null,
+      "actions": null,
+      "animations": [],
+      "autoAnimate": true,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 100,
+      "autoAnimateLoop": true,
+      "boundingBoxMinimum": [
+        -25015.3477,
+        12.253,
+        -10920.8574
+      ],
+      "boundingBoxMaximum": [
+        -19043.9141,
+        5738.792,
+        9079.143
+      ],
+      "delayLoadingFile": "Room02.Wall01.d6addeda-bbbb-4968-b1c3-a7ec82948a1d.babylonbinarymeshdata",
+      "hasUVs": true,
+      "_binaryInfo": {
+        "positionsAttrDesc": {
+          "count": 36,
+          "stride": 3,
+          "offset": 0,
+          "dataType": 1
+        },
+        "normalsAttrDesc": {
+          "count": 36,
+          "stride": 3,
+          "offset": 144,
+          "dataType": 1
+        },
+        "uvsAttrDesc": {
+          "count": 24,
+          "stride": 2,
+          "offset": 288,
+          "dataType": 1
+        },
+        "indicesAttrDesc": {
+          "count": 12,
+          "stride": 1,
+          "offset": 384,
+          "dataType": 0
+        },
+        "subMeshesAttrDesc": {
+          "count": 1,
+          "stride": 5,
+          "offset": 432,
+          "dataType": 0
+        }
+      }
+    },
+    {
+      "id": "0ab923e4-f927-4e60-bb5d-f595f86f570e",
+      "parentId": null,
+      "materialId": "70206edd-e8c0-4785-ab5d-d1f333d05a22",
+      "isEnabled": true,
+      "isVisible": true,
+      "pickable": false,
+      "pivotMatrix": null,
+      "positions": null,
+      "normals": null,
+      "uvs": null,
+      "uvs2": null,
+      "colors": null,
+      "hasVertexAlpha": false,
+      "matricesIndices": null,
+      "matricesWeights": null,
+      "matricesIndicesExtra": null,
+      "matricesWeightsExtra": null,
+      "indices": null,
+      "checkCollisions": false,
+      "receiveShadows": true,
+      "infiniteDistance": false,
+      "billboardMode": 0,
+      "visibility": 1.0,
+      "subMeshes": null,
+      "instances": [],
+      "skeletonId": -1,
+      "numBoneInfluencers": 0,
+      "showBoundingBox": false,
+      "showSubMeshesBoundingBox": false,
+      "applyFog": true,
+      "alphaIndex": 1000,
+      "physicsImpostor": 0,
+      "physicsMass": 0.0,
+      "physicsFriction": 0.0,
+      "physicsRestitution": 0.0,
+      "name": "End_Live",
+      "position": [
+        220.2213,
+        -32.7886,
+        -90.7554
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scaling": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "rotationQuaternion": null,
+      "actions": null,
+      "animations": [],
+      "autoAnimate": true,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 100,
+      "autoAnimateLoop": true,
+      "boundingBoxMinimum": [
+        -25015.3477,
+        12.2539,
+        8876.971
+      ],
+      "boundingBoxMaximum": [
+        -19043.91,
+        5738.792,
+        9286.702
+      ],
+      "delayLoadingFile": "Room02.End_Live.0ab923e4-f927-4e60-bb5d-f595f86f570e.babylonbinarymeshdata",
+      "hasUVs": true,
+      "_binaryInfo": {
+        "positionsAttrDesc": {
+          "count": 8928,
+          "stride": 3,
+          "offset": 0,
+          "dataType": 1
+        },
+        "normalsAttrDesc": {
+          "count": 8928,
+          "stride": 3,
+          "offset": 35712,
+          "dataType": 1
+        },
+        "uvsAttrDesc": {
+          "count": 5952,
+          "stride": 2,
+          "offset": 71424,
+          "dataType": 1
+        },
+        "indicesAttrDesc": {
+          "count": 2976,
+          "stride": 1,
+          "offset": 95232,
+          "dataType": 0
+        },
+        "subMeshesAttrDesc": {
+          "count": 1,
+          "stride": 5,
+          "offset": 107136,
+          "dataType": 0
+        }
+      }
+    },
+    {
+      "id": "b567da65-118a-4f90-abf2-6417a35273b2",
+      "parentId": null,
+      "materialId": "7d2c1923-7051-4080-8e41-dc729dcee731",
+      "isEnabled": true,
+      "isVisible": true,
+      "pickable": false,
+      "pivotMatrix": null,
+      "positions": null,
+      "normals": null,
+      "uvs": null,
+      "uvs2": null,
+      "colors": null,
+      "hasVertexAlpha": false,
+      "matricesIndices": null,
+      "matricesWeights": null,
+      "matricesIndicesExtra": null,
+      "matricesWeightsExtra": null,
+      "indices": null,
+      "checkCollisions": false,
+      "receiveShadows": true,
+      "infiniteDistance": false,
+      "billboardMode": 0,
+      "visibility": 1.0,
+      "subMeshes": null,
+      "instances": [],
+      "skeletonId": -1,
+      "numBoneInfluencers": 0,
+      "showBoundingBox": false,
+      "showSubMeshesBoundingBox": false,
+      "applyFog": true,
+      "alphaIndex": 1000,
+      "physicsImpostor": 0,
+      "physicsMass": 0.0,
+      "physicsFriction": 0.0,
+      "physicsRestitution": 0.0,
+      "name": "Roof01",
+      "position": [
+        220.2213,
+        -32.7886,
+        -90.7553
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scaling": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "rotationQuaternion": null,
+      "actions": null,
+      "animations": [],
+      "autoAnimate": true,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 100,
+      "autoAnimateLoop": true,
+      "boundingBoxMinimum": [
+        -25015.35,
+        3999.99878,
+        -10928.0723
+      ],
+      "boundingBoxMaximum": [
+        -19043.9141,
+        6545.474,
+        9079.144
+      ],
+      "delayLoadingFile": "Room02.Roof01.b567da65-118a-4f90-abf2-6417a35273b2.babylonbinarymeshdata",
+      "hasUVs": true,
+      "_binaryInfo": {
+        "positionsAttrDesc": {
+          "count": 1260,
+          "stride": 3,
+          "offset": 0,
+          "dataType": 1
+        },
+        "normalsAttrDesc": {
+          "count": 1260,
+          "stride": 3,
+          "offset": 5040,
+          "dataType": 1
+        },
+        "uvsAttrDesc": {
+          "count": 840,
+          "stride": 2,
+          "offset": 10080,
+          "dataType": 1
+        },
+        "indicesAttrDesc": {
+          "count": 420,
+          "stride": 1,
+          "offset": 13440,
+          "dataType": 0
+        },
+        "subMeshesAttrDesc": {
+          "count": 1,
+          "stride": 5,
+          "offset": 15120,
+          "dataType": 0
+        }
+      }
+    },
+    {
+      "id": "4dcbb7ba-345e-4f7c-a41b-e26ba195f628",
+      "parentId": null,
+      "materialId": "97c5cd03-6df5-4722-9e7c-d07b6e0ba620",
+      "isEnabled": true,
+      "isVisible": true,
+      "pickable": false,
+      "pivotMatrix": null,
+      "positions": null,
+      "normals": null,
+      "uvs": null,
+      "uvs2": null,
+      "colors": null,
+      "hasVertexAlpha": false,
+      "matricesIndices": null,
+      "matricesWeights": null,
+      "matricesIndicesExtra": null,
+      "matricesWeightsExtra": null,
+      "indices": null,
+      "checkCollisions": false,
+      "receiveShadows": true,
+      "infiniteDistance": false,
+      "billboardMode": 0,
+      "visibility": 1.0,
+      "subMeshes": null,
+      "instances": [],
+      "skeletonId": -1,
+      "numBoneInfluencers": 0,
+      "showBoundingBox": false,
+      "showSubMeshesBoundingBox": false,
+      "applyFog": true,
+      "alphaIndex": 1000,
+      "physicsImpostor": 0,
+      "physicsMass": 0.0,
+      "physicsFriction": 0.0,
+      "physicsRestitution": 0.0,
+      "name": "Ground01",
+      "position": [
+        220.2213,
+        -32.7886,
+        -90.7553
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scaling": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "rotationQuaternion": null,
+      "actions": null,
+      "animations": [],
+      "autoAnimate": true,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 100,
+      "autoAnimateLoop": true,
+      "boundingBoxMinimum": [
+        -25015.3477,
+        12.2549,
+        -10920.8574
+      ],
+      "boundingBoxMaximum": [
+        -19043.9141,
+        12.2559,
+        9079.143
+      ],
+      "delayLoadingFile": "Room02.Ground01.4dcbb7ba-345e-4f7c-a41b-e26ba195f628.babylonbinarymeshdata",
+      "hasUVs": true,
+      "_binaryInfo": {
+        "positionsAttrDesc": {
+          "count": 18,
+          "stride": 3,
+          "offset": 0,
+          "dataType": 1
+        },
+        "normalsAttrDesc": {
+          "count": 18,
+          "stride": 3,
+          "offset": 72,
+          "dataType": 1
+        },
+        "uvsAttrDesc": {
+          "count": 12,
+          "stride": 2,
+          "offset": 144,
+          "dataType": 1
+        },
+        "indicesAttrDesc": {
+          "count": 6,
+          "stride": 1,
+          "offset": 192,
+          "dataType": 0
+        },
+        "subMeshesAttrDesc": {
+          "count": 1,
+          "stride": 5,
+          "offset": 216,
+          "dataType": 0
+        }
+      }
+    },
+    {
+      "id": "4eab850b-2732-45b9-a3ce-479f0cb665fb",
+      "parentId": null,
+      "materialId": "df0caeea-ff63-4632-bae5-065a5d768ed6",
+      "isEnabled": true,
+      "isVisible": true,
+      "pickable": false,
+      "pivotMatrix": null,
+      "positions": null,
+      "normals": null,
+      "uvs": null,
+      "uvs2": null,
+      "colors": null,
+      "hasVertexAlpha": false,
+      "matricesIndices": null,
+      "matricesWeights": null,
+      "matricesIndicesExtra": null,
+      "matricesWeightsExtra": null,
+      "indices": null,
+      "checkCollisions": false,
+      "receiveShadows": true,
+      "infiniteDistance": false,
+      "billboardMode": 0,
+      "visibility": 1.0,
+      "subMeshes": null,
+      "instances": [],
+      "skeletonId": -1,
+      "numBoneInfluencers": 0,
+      "showBoundingBox": false,
+      "showSubMeshesBoundingBox": false,
+      "applyFog": true,
+      "alphaIndex": 1000,
+      "physicsImpostor": 0,
+      "physicsMass": 0.0,
+      "physicsFriction": 0.0,
+      "physicsRestitution": 0.0,
+      "name": "Wall02",
+      "position": [
+        220.2213,
+        -32.7886,
+        -90.7553
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scaling": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "rotationQuaternion": null,
+      "actions": null,
+      "animations": [],
+      "autoAnimate": true,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 100,
+      "autoAnimateLoop": true,
+      "boundingBoxMinimum": [
+        -25015.3477,
+        12.2539,
+        9079.143
+      ],
+      "boundingBoxMaximum": [
+        -19043.9141,
+        5738.793,
+        29079.1426
+      ],
+      "delayLoadingFile": "Room02.Wall02.4eab850b-2732-45b9-a3ce-479f0cb665fb.babylonbinarymeshdata",
+      "hasUVs": true,
+      "_binaryInfo": {
+        "positionsAttrDesc": {
+          "count": 36,
+          "stride": 3,
+          "offset": 0,
+          "dataType": 1
+        },
+        "normalsAttrDesc": {
+          "count": 36,
+          "stride": 3,
+          "offset": 144,
+          "dataType": 1
+        },
+        "uvsAttrDesc": {
+          "count": 24,
+          "stride": 2,
+          "offset": 288,
+          "dataType": 1
+        },
+        "indicesAttrDesc": {
+          "count": 12,
+          "stride": 1,
+          "offset": 384,
+          "dataType": 0
+        },
+        "subMeshesAttrDesc": {
+          "count": 1,
+          "stride": 5,
+          "offset": 432,
+          "dataType": 0
+        }
+      }
+    },
+    {
+      "id": "45ea2b3a-e5cc-4114-809f-d7d0d2aa3c16",
+      "parentId": null,
+      "materialId": "2a3e25df-c4aa-4875-98d7-0a4ad8a56e53",
+      "isEnabled": true,
+      "isVisible": true,
+      "pickable": false,
+      "pivotMatrix": null,
+      "positions": null,
+      "normals": null,
+      "uvs": null,
+      "uvs2": null,
+      "colors": null,
+      "hasVertexAlpha": false,
+      "matricesIndices": null,
+      "matricesWeights": null,
+      "matricesIndicesExtra": null,
+      "matricesWeightsExtra": null,
+      "indices": null,
+      "checkCollisions": false,
+      "receiveShadows": true,
+      "infiniteDistance": false,
+      "billboardMode": 0,
+      "visibility": 1.0,
+      "subMeshes": null,
+      "instances": [],
+      "skeletonId": -1,
+      "numBoneInfluencers": 0,
+      "showBoundingBox": false,
+      "showSubMeshesBoundingBox": false,
+      "applyFog": true,
+      "alphaIndex": 1000,
+      "physicsImpostor": 0,
+      "physicsMass": 0.0,
+      "physicsFriction": 0.0,
+      "physicsRestitution": 0.0,
+      "name": "Roof02",
+      "position": [
+        220.2213,
+        -32.7887,
+        -90.7554
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scaling": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "rotationQuaternion": null,
+      "actions": null,
+      "animations": [],
+      "autoAnimate": true,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 100,
+      "autoAnimateLoop": true,
+      "boundingBoxMinimum": [
+        -25015.35,
+        3999.99976,
+        9071.928
+      ],
+      "boundingBoxMaximum": [
+        -19043.9141,
+        6545.475,
+        29079.1426
+      ],
+      "delayLoadingFile": "Room02.Roof02.45ea2b3a-e5cc-4114-809f-d7d0d2aa3c16.babylonbinarymeshdata",
+      "hasUVs": true,
+      "_binaryInfo": {
+        "positionsAttrDesc": {
+          "count": 1260,
+          "stride": 3,
+          "offset": 0,
+          "dataType": 1
+        },
+        "normalsAttrDesc": {
+          "count": 1260,
+          "stride": 3,
+          "offset": 5040,
+          "dataType": 1
+        },
+        "uvsAttrDesc": {
+          "count": 840,
+          "stride": 2,
+          "offset": 10080,
+          "dataType": 1
+        },
+        "indicesAttrDesc": {
+          "count": 420,
+          "stride": 1,
+          "offset": 13440,
+          "dataType": 0
+        },
+        "subMeshesAttrDesc": {
+          "count": 1,
+          "stride": 5,
+          "offset": 15120,
+          "dataType": 0
+        }
+      }
+    },
+    {
+      "id": "ae7479d7-818d-4a26-a42a-f563383aa15b",
+      "parentId": null,
+      "materialId": "b8ac789e-1d2f-4940-b7f5-2da763ec2702",
+      "isEnabled": true,
+      "isVisible": true,
+      "pickable": false,
+      "pivotMatrix": null,
+      "positions": null,
+      "normals": null,
+      "uvs": null,
+      "uvs2": null,
+      "colors": null,
+      "hasVertexAlpha": false,
+      "matricesIndices": null,
+      "matricesWeights": null,
+      "matricesIndicesExtra": null,
+      "matricesWeightsExtra": null,
+      "indices": null,
+      "checkCollisions": false,
+      "receiveShadows": true,
+      "infiniteDistance": false,
+      "billboardMode": 0,
+      "visibility": 1.0,
+      "subMeshes": null,
+      "instances": [],
+      "skeletonId": -1,
+      "numBoneInfluencers": 0,
+      "showBoundingBox": false,
+      "showSubMeshesBoundingBox": false,
+      "applyFog": true,
+      "alphaIndex": 1000,
+      "physicsImpostor": 0,
+      "physicsMass": 0.0,
+      "physicsFriction": 0.0,
+      "physicsRestitution": 0.0,
+      "name": "Ground02",
+      "position": [
+        220.2213,
+        -32.7886,
+        -90.7553
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scaling": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "rotationQuaternion": null,
+      "actions": null,
+      "animations": [],
+      "autoAnimate": true,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 100,
+      "autoAnimateLoop": true,
+      "boundingBoxMinimum": [
+        -25015.3477,
+        12.2559,
+        9079.143
+      ],
+      "boundingBoxMaximum": [
+        -19043.9141,
+        12.2569,
+        29079.1426
+      ],
+      "delayLoadingFile": "Room02.Ground02.ae7479d7-818d-4a26-a42a-f563383aa15b.babylonbinarymeshdata",
+      "hasUVs": true,
+      "_binaryInfo": {
+        "positionsAttrDesc": {
+          "count": 18,
+          "stride": 3,
+          "offset": 0,
+          "dataType": 1
+        },
+        "normalsAttrDesc": {
+          "count": 18,
+          "stride": 3,
+          "offset": 72,
+          "dataType": 1
+        },
+        "uvsAttrDesc": {
+          "count": 12,
+          "stride": 2,
+          "offset": 144,
+          "dataType": 1
+        },
+        "indicesAttrDesc": {
+          "count": 6,
+          "stride": 1,
+          "offset": 192,
+          "dataType": 0
+        },
+        "subMeshesAttrDesc": {
+          "count": 1,
+          "stride": 5,
+          "offset": 216,
+          "dataType": 0
+        }
+      }
+    },
+    {
+      "id": "ed2e9218-d780-4821-95d0-ff74beef56e5",
+      "parentId": null,
+      "materialId": "8c5b176b-f7fa-426f-88e0-0709cbe8894c",
+      "isEnabled": true,
+      "isVisible": true,
+      "pickable": false,
+      "pivotMatrix": null,
+      "positions": null,
+      "normals": null,
+      "uvs": null,
+      "uvs2": null,
+      "colors": null,
+      "hasVertexAlpha": false,
+      "matricesIndices": null,
+      "matricesWeights": null,
+      "matricesIndicesExtra": null,
+      "matricesWeightsExtra": null,
+      "indices": null,
+      "checkCollisions": false,
+      "receiveShadows": true,
+      "infiniteDistance": false,
+      "billboardMode": 0,
+      "visibility": 1.0,
+      "subMeshes": null,
+      "instances": [],
+      "skeletonId": -1,
+      "numBoneInfluencers": 0,
+      "showBoundingBox": false,
+      "showSubMeshesBoundingBox": false,
+      "applyFog": true,
+      "alphaIndex": 1000,
+      "physicsImpostor": 0,
+      "physicsMass": 0.0,
+      "physicsFriction": 0.0,
+      "physicsRestitution": 0.0,
+      "name": "Box002",
+      "position": [
+        29.6322,
+        -31.666,
+        -199.9639
+      ],
+      "rotation": [
+        -1.5708,
+        0.0,
+        0.0
+      ],
+      "scaling": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "rotationQuaternion": null,
+      "actions": null,
+      "animations": [],
+      "autoAnimate": true,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 100,
+      "autoAnimateLoop": true,
+      "boundingBoxMinimum": [
+        -5956.43359,
+        -20000.0,
+        -100.0
+      ],
+      "boundingBoxMaximum": [
+        15.0,
+        0.0,
+        100.0001
+      ],
+      "delayLoadingFile": "Room02.Box002.ed2e9218-d780-4821-95d0-ff74beef56e5.babylonbinarymeshdata",
+      "hasUVs": true,
+      "_binaryInfo": {
+        "positionsAttrDesc": {
+          "count": 792,
+          "stride": 3,
+          "offset": 0,
+          "dataType": 1
+        },
+        "normalsAttrDesc": {
+          "count": 792,
+          "stride": 3,
+          "offset": 3168,
+          "dataType": 1
+        },
+        "uvsAttrDesc": {
+          "count": 528,
+          "stride": 2,
+          "offset": 6336,
+          "dataType": 1
+        },
+        "indicesAttrDesc": {
+          "count": 264,
+          "stride": 1,
+          "offset": 8448,
+          "dataType": 0
+        },
+        "subMeshesAttrDesc": {
+          "count": 1,
+          "stride": 5,
+          "offset": 9504,
+          "dataType": 0
+        }
+      }
+    },
+    {
+      "id": "f74fd9bb-2d16-4544-83ce-bb0afeb73aba",
+      "parentId": null,
+      "materialId": "048a2f6e-e8a8-4bc4-9431-9171765e78cc",
+      "isEnabled": true,
+      "isVisible": true,
+      "pickable": false,
+      "pivotMatrix": null,
+      "positions": null,
+      "normals": null,
+      "uvs": null,
+      "uvs2": null,
+      "colors": null,
+      "hasVertexAlpha": false,
+      "matricesIndices": null,
+      "matricesWeights": null,
+      "matricesIndicesExtra": null,
+      "matricesWeightsExtra": null,
+      "indices": null,
+      "checkCollisions": false,
+      "receiveShadows": true,
+      "infiniteDistance": false,
+      "billboardMode": 0,
+      "visibility": 1.0,
+      "subMeshes": null,
+      "instances": [],
+      "skeletonId": -1,
+      "numBoneInfluencers": 0,
+      "showBoundingBox": false,
+      "showSubMeshesBoundingBox": false,
+      "applyFog": true,
+      "alphaIndex": 1000,
+      "physicsImpostor": 0,
+      "physicsMass": 0.0,
+      "physicsFriction": 0.0,
+      "physicsRestitution": 0.0,
+      "name": "End_Dead02",
+      "position": [
+        220.2213,
+        -32.7886,
+        -105.8185
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scaling": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "rotationQuaternion": null,
+      "actions": null,
+      "animations": [],
+      "autoAnimate": true,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 100,
+      "autoAnimateLoop": true,
+      "boundingBoxMinimum": [
+        -25015.35,
+        12.2559,
+        30585.3613
+      ],
+      "boundingBoxMaximum": [
+        -19043.916,
+        5738.79346,
+        30585.3613
+      ],
+      "delayLoadingFile": "Room02.End_Dead02.f74fd9bb-2d16-4544-83ce-bb0afeb73aba.babylonbinarymeshdata",
+      "hasUVs": true,
+      "_binaryInfo": {
+        "positionsAttrDesc": {
+          "count": 18,
+          "stride": 3,
+          "offset": 0,
+          "dataType": 1
+        },
+        "normalsAttrDesc": {
+          "count": 18,
+          "stride": 3,
+          "offset": 72,
+          "dataType": 1
+        },
+        "uvsAttrDesc": {
+          "count": 12,
+          "stride": 2,
+          "offset": 144,
+          "dataType": 1
+        },
+        "indicesAttrDesc": {
+          "count": 6,
+          "stride": 1,
+          "offset": 192,
+          "dataType": 0
+        },
+        "subMeshesAttrDesc": {
+          "count": 1,
+          "stride": 5,
+          "offset": 216,
+          "dataType": 0
+        }
+      }
+    },
+    {
+      "id": "08892563-a057-4245-8956-ba16df9d056d",
+      "parentId": null,
+      "materialId": "cf27f6aa-078b-490b-a8e3-c580e7e0a411",
+      "isEnabled": true,
+      "isVisible": true,
+      "pickable": false,
+      "pivotMatrix": null,
+      "positions": null,
+      "normals": null,
+      "uvs": null,
+      "uvs2": null,
+      "colors": null,
+      "hasVertexAlpha": false,
+      "matricesIndices": null,
+      "matricesWeights": null,
+      "matricesIndicesExtra": null,
+      "matricesWeightsExtra": null,
+      "indices": null,
+      "checkCollisions": false,
+      "receiveShadows": true,
+      "infiniteDistance": false,
+      "billboardMode": 0,
+      "visibility": 1.0,
+      "subMeshes": null,
+      "instances": [],
+      "skeletonId": -1,
+      "numBoneInfluencers": 0,
+      "showBoundingBox": false,
+      "showSubMeshesBoundingBox": false,
+      "applyFog": true,
+      "alphaIndex": 1000,
+      "physicsImpostor": 0,
+      "physicsMass": 0.0,
+      "physicsFriction": 0.0,
+      "physicsRestitution": 0.0,
+      "name": "End_Dead01",
+      "position": [
+        220.2213,
+        -32.7886,
+        -61.3664
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scaling": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "rotationQuaternion": null,
+      "actions": null,
+      "animations": [],
+      "autoAnimate": true,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 100,
+      "autoAnimateLoop": true,
+      "boundingBoxMinimum": [
+        -25015.35,
+        12.2559,
+        -13859.85
+      ],
+      "boundingBoxMaximum": [
+        -19043.916,
+        5738.79346,
+        -13859.85
+      ],
+      "delayLoadingFile": "Room02.End_Dead01.08892563-a057-4245-8956-ba16df9d056d.babylonbinarymeshdata",
+      "hasUVs": true,
+      "_binaryInfo": {
+        "positionsAttrDesc": {
+          "count": 18,
+          "stride": 3,
+          "offset": 0,
+          "dataType": 1
+        },
+        "normalsAttrDesc": {
+          "count": 18,
+          "stride": 3,
+          "offset": 72,
+          "dataType": 1
+        },
+        "uvsAttrDesc": {
+          "count": 12,
+          "stride": 2,
+          "offset": 144,
+          "dataType": 1
+        },
+        "indicesAttrDesc": {
+          "count": 6,
+          "stride": 1,
+          "offset": 192,
+          "dataType": 0
+        },
+        "subMeshesAttrDesc": {
+          "count": 1,
+          "stride": 5,
+          "offset": 216,
+          "dataType": 0
+        }
+      }
+    },
+    {
+      "id": "8987441a-e166-4420-8927-9d6fa205037f",
+      "parentId": null,
+      "materialId": "8c5b176b-f7fa-426f-88e0-0709cbe8894c",
+      "isEnabled": true,
+      "isVisible": true,
+      "pickable": false,
+      "pivotMatrix": null,
+      "positions": null,
+      "normals": null,
+      "uvs": null,
+      "uvs2": null,
+      "colors": null,
+      "hasVertexAlpha": false,
+      "matricesIndices": null,
+      "matricesWeights": null,
+      "matricesIndicesExtra": null,
+      "matricesWeightsExtra": null,
+      "indices": null,
+      "checkCollisions": false,
+      "receiveShadows": true,
+      "infiniteDistance": false,
+      "billboardMode": 0,
+      "visibility": 1.0,
+      "subMeshes": null,
+      "instances": [],
+      "skeletonId": -1,
+      "numBoneInfluencers": 0,
+      "showBoundingBox": false,
+      "showSubMeshesBoundingBox": false,
+      "applyFog": true,
+      "alphaIndex": 1000,
+      "physicsImpostor": 0,
+      "physicsMass": 0.0,
+      "physicsFriction": 0.0,
+      "physicsRestitution": 0.0,
+      "name": "Box003",
+      "position": [
+        29.6322,
+        -31.666,
+        200.2065
+      ],
+      "rotation": [
+        -1.5708,
+        0.0,
+        3.1416
+      ],
+      "scaling": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "rotationQuaternion": null,
+      "actions": null,
+      "animations": [],
+      "autoAnimate": true,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 100,
+      "autoAnimateLoop": true,
+      "boundingBoxMinimum": [
+        -5956.43359,
+        -20000.0,
+        -100.0
+      ],
+      "boundingBoxMaximum": [
+        15.0,
+        0.0,
+        100.0001
+      ],
+      "delayLoadingFile": "Room02.Box003.8987441a-e166-4420-8927-9d6fa205037f.babylonbinarymeshdata",
+      "hasUVs": true,
+      "_binaryInfo": {
+        "positionsAttrDesc": {
+          "count": 792,
+          "stride": 3,
+          "offset": 0,
+          "dataType": 1
+        },
+        "normalsAttrDesc": {
+          "count": 792,
+          "stride": 3,
+          "offset": 3168,
+          "dataType": 1
+        },
+        "uvsAttrDesc": {
+          "count": 528,
+          "stride": 2,
+          "offset": 6336,
+          "dataType": 1
+        },
+        "indicesAttrDesc": {
+          "count": 264,
+          "stride": 1,
+          "offset": 8448,
+          "dataType": 0
+        },
+        "subMeshesAttrDesc": {
+          "count": 1,
+          "stride": 5,
+          "offset": 9504,
+          "dataType": 0
+        }
+      }
+    },
+    {
+      "id": "727b689c-1e5e-4ef9-9d1a-2ee96dddc588",
+      "parentId": null,
+      "materialId": "bce4b078-c6c0-451c-b266-0adaa7beb1dd",
+      "isEnabled": true,
+      "isVisible": true,
+      "pickable": false,
+      "pivotMatrix": null,
+      "positions": null,
+      "normals": null,
+      "uvs": null,
+      "uvs2": null,
+      "colors": null,
+      "hasVertexAlpha": false,
+      "matricesIndices": null,
+      "matricesWeights": null,
+      "matricesIndicesExtra": null,
+      "matricesWeightsExtra": null,
+      "indices": null,
+      "checkCollisions": false,
+      "receiveShadows": true,
+      "infiniteDistance": false,
+      "billboardMode": 0,
+      "visibility": 1.0,
+      "subMeshes": null,
+      "instances": [],
+      "skeletonId": -1,
+      "numBoneInfluencers": 0,
+      "showBoundingBox": false,
+      "showSubMeshesBoundingBox": false,
+      "applyFog": true,
+      "alphaIndex": 1000,
+      "physicsImpostor": 0,
+      "physicsMass": 0.0,
+      "physicsFriction": 0.0,
+      "physicsRestitution": 0.0,
+      "name": "NameBoard",
+      "position": [
+        -21.2746,
+        -32.6147,
+        164.3855
+      ],
+      "rotation": [
+        0.0,
+        -2.3562,
+        0.0
+      ],
+      "scaling": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "rotationQuaternion": null,
+      "actions": null,
+      "animations": [],
+      "autoAnimate": true,
+      "autoAnimateFrom": 0,
+      "autoAnimateTo": 100,
+      "autoAnimateLoop": true,
+      "boundingBoxMinimum": [
+        -400.0,
+        -5.1302,
+        -250.638
+      ],
+      "boundingBoxMaximum": [
+        400.0,
+        1132.76135,
+        341.41
+      ],
+      "delayLoadingFile": "Room02.NameBoard.727b689c-1e5e-4ef9-9d1a-2ee96dddc588.babylonbinarymeshdata",
+      "hasUVs": true,
+      "_binaryInfo": {
+        "positionsAttrDesc": {
+          "count": 774,
+          "stride": 3,
+          "offset": 0,
+          "dataType": 1
+        },
+        "normalsAttrDesc": {
+          "count": 774,
+          "stride": 3,
+          "offset": 3096,
+          "dataType": 1
+        },
+        "uvsAttrDesc": {
+          "count": 516,
+          "stride": 2,
+          "offset": 6192,
+          "dataType": 1
+        },
+        "indicesAttrDesc": {
+          "count": 258,
+          "stride": 1,
+          "offset": 8256,
+          "dataType": 0
+        },
+        "subMeshesAttrDesc": {
+          "count": 1,
+          "stride": 5,
+          "offset": 9288,
+          "dataType": 0
+        }
+      }
+    }
+  ],
+  "sounds": [],
+  "materials": [
+    {
+      "ambient": [
+        0.5882,
+        0.5882,
+        0.5882
+      ],
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "diffuseTexture": {
+        "name": "Wall01.jpg",
+        "level": 1.0,
+        "hasAlpha": false,
+        "getAlphaFromRGB": false,
+        "coordinatesMode": 0,
+        "isCube": false,
+        "uOffset": 0.0,
+        "vOffset": 0.0,
+        "uScale": 1.0,
+        "vScale": 1.0,
+        "uAng": 0.0,
+        "vAng": 0.0,
+        "wAng": 0.0,
+        "wrapU": 1,
+        "wrapV": 1,
+        "coordinatesIndex": 0,
+        "isRenderTarget": false,
+        "renderTargetSize": 0,
+        "mirrorPlane": null,
+        "renderList": null,
+        "animations": []
+      },
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "lightmapTexture": null,
+      "useLightmapAsShadowmap": false,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null,
+      "useSpecularOverAlpha": true,
+      "name": "Wall01",
+      "id": "fa09751a-072a-4043-ad4a-f1b65da3762e",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "alpha": 1.0
+    },
+    {
+      "ambient": [
+        0.5882,
+        0.5882,
+        0.5882
+      ],
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "diffuseTexture": {
+        "name": "End_Live.jpg",
+        "level": 1.0,
+        "hasAlpha": false,
+        "getAlphaFromRGB": false,
+        "coordinatesMode": 0,
+        "isCube": false,
+        "uOffset": 0.0,
+        "vOffset": 0.0,
+        "uScale": 1.0,
+        "vScale": 1.0,
+        "uAng": 0.0,
+        "vAng": 0.0,
+        "wAng": 0.0,
+        "wrapU": 1,
+        "wrapV": 1,
+        "coordinatesIndex": 0,
+        "isRenderTarget": false,
+        "renderTargetSize": 0,
+        "mirrorPlane": null,
+        "renderList": null,
+        "animations": []
+      },
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "lightmapTexture": null,
+      "useLightmapAsShadowmap": false,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null,
+      "useSpecularOverAlpha": true,
+      "name": "End_Live",
+      "id": "70206edd-e8c0-4785-ab5d-d1f333d05a22",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "alpha": 1.0
+    },
+    {
+      "ambient": [
+        0.5882,
+        0.5882,
+        0.5882
+      ],
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "diffuseTexture": {
+        "name": "Roof01.jpg",
+        "level": 1.0,
+        "hasAlpha": false,
+        "getAlphaFromRGB": false,
+        "coordinatesMode": 0,
+        "isCube": false,
+        "uOffset": 0.0,
+        "vOffset": 0.0,
+        "uScale": 1.0,
+        "vScale": 1.0,
+        "uAng": 0.0,
+        "vAng": 0.0,
+        "wAng": 0.0,
+        "wrapU": 1,
+        "wrapV": 1,
+        "coordinatesIndex": 0,
+        "isRenderTarget": false,
+        "renderTargetSize": 0,
+        "mirrorPlane": null,
+        "renderList": null,
+        "animations": []
+      },
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "lightmapTexture": null,
+      "useLightmapAsShadowmap": false,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null,
+      "useSpecularOverAlpha": true,
+      "name": "Roof01",
+      "id": "7d2c1923-7051-4080-8e41-dc729dcee731",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "alpha": 1.0
+    },
+    {
+      "ambient": [
+        0.5882,
+        0.5882,
+        0.5882
+      ],
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "diffuseTexture": {
+        "name": "Ground01.jpg",
+        "level": 1.0,
+        "hasAlpha": false,
+        "getAlphaFromRGB": false,
+        "coordinatesMode": 0,
+        "isCube": false,
+        "uOffset": 0.0,
+        "vOffset": 0.0,
+        "uScale": 1.0,
+        "vScale": 1.0,
+        "uAng": 0.0,
+        "vAng": 0.0,
+        "wAng": 0.0,
+        "wrapU": 1,
+        "wrapV": 1,
+        "coordinatesIndex": 0,
+        "isRenderTarget": false,
+        "renderTargetSize": 0,
+        "mirrorPlane": null,
+        "renderList": null,
+        "animations": []
+      },
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "lightmapTexture": null,
+      "useLightmapAsShadowmap": false,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null,
+      "useSpecularOverAlpha": true,
+      "name": "Ground01",
+      "id": "97c5cd03-6df5-4722-9e7c-d07b6e0ba620",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "alpha": 1.0
+    },
+    {
+      "ambient": [
+        0.5882,
+        0.5882,
+        0.5882
+      ],
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "diffuseTexture": {
+        "name": "Wall02.jpg",
+        "level": 1.0,
+        "hasAlpha": false,
+        "getAlphaFromRGB": false,
+        "coordinatesMode": 0,
+        "isCube": false,
+        "uOffset": 0.0,
+        "vOffset": 0.0,
+        "uScale": 1.0,
+        "vScale": 1.0,
+        "uAng": 0.0,
+        "vAng": 0.0,
+        "wAng": 0.0,
+        "wrapU": 1,
+        "wrapV": 1,
+        "coordinatesIndex": 0,
+        "isRenderTarget": false,
+        "renderTargetSize": 0,
+        "mirrorPlane": null,
+        "renderList": null,
+        "animations": []
+      },
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "lightmapTexture": null,
+      "useLightmapAsShadowmap": false,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null,
+      "useSpecularOverAlpha": true,
+      "name": "Wall02",
+      "id": "df0caeea-ff63-4632-bae5-065a5d768ed6",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "alpha": 1.0
+    },
+    {
+      "ambient": [
+        0.5882,
+        0.5882,
+        0.5882
+      ],
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "diffuseTexture": {
+        "name": "Roof02.jpg",
+        "level": 1.0,
+        "hasAlpha": false,
+        "getAlphaFromRGB": false,
+        "coordinatesMode": 0,
+        "isCube": false,
+        "uOffset": 0.0,
+        "vOffset": 0.0,
+        "uScale": 1.0,
+        "vScale": 1.0,
+        "uAng": 0.0,
+        "vAng": 0.0,
+        "wAng": 0.0,
+        "wrapU": 1,
+        "wrapV": 1,
+        "coordinatesIndex": 0,
+        "isRenderTarget": false,
+        "renderTargetSize": 0,
+        "mirrorPlane": null,
+        "renderList": null,
+        "animations": []
+      },
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "lightmapTexture": null,
+      "useLightmapAsShadowmap": false,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null,
+      "useSpecularOverAlpha": true,
+      "name": "Roof02",
+      "id": "2a3e25df-c4aa-4875-98d7-0a4ad8a56e53",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "alpha": 1.0
+    },
+    {
+      "ambient": [
+        0.5882,
+        0.5882,
+        0.5882
+      ],
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "diffuseTexture": {
+        "name": "Ground02.jpg",
+        "level": 1.0,
+        "hasAlpha": false,
+        "getAlphaFromRGB": false,
+        "coordinatesMode": 0,
+        "isCube": false,
+        "uOffset": 0.0,
+        "vOffset": 0.0,
+        "uScale": 1.0,
+        "vScale": 1.0,
+        "uAng": 0.0,
+        "vAng": 0.0,
+        "wAng": 0.0,
+        "wrapU": 1,
+        "wrapV": 1,
+        "coordinatesIndex": 0,
+        "isRenderTarget": false,
+        "renderTargetSize": 0,
+        "mirrorPlane": null,
+        "renderList": null,
+        "animations": []
+      },
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "lightmapTexture": null,
+      "useLightmapAsShadowmap": false,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null,
+      "useSpecularOverAlpha": true,
+      "name": "Ground02",
+      "id": "b8ac789e-1d2f-4940-b7f5-2da763ec2702",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "alpha": 1.0
+    },
+    {
+      "ambient": [
+        0.0471,
+        0.0235,
+        0.0
+      ],
+      "diffuse": [
+        0.0471,
+        0.0235,
+        0.0
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "diffuseTexture": null,
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "lightmapTexture": null,
+      "useLightmapAsShadowmap": false,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null,
+      "useSpecularOverAlpha": true,
+      "name": "10 - Default",
+      "id": "8c5b176b-f7fa-426f-88e0-0709cbe8894c",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "alpha": 1.0
+    },
+    {
+      "ambient": [
+        0.5882,
+        0.5882,
+        0.5882
+      ],
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "diffuseTexture": {
+        "name": "End_Dead02.jpg",
+        "level": 1.0,
+        "hasAlpha": false,
+        "getAlphaFromRGB": false,
+        "coordinatesMode": 0,
+        "isCube": false,
+        "uOffset": 0.0,
+        "vOffset": 0.0,
+        "uScale": 1.0,
+        "vScale": 1.0,
+        "uAng": 0.0,
+        "vAng": 0.0,
+        "wAng": 0.0,
+        "wrapU": 1,
+        "wrapV": 1,
+        "coordinatesIndex": 0,
+        "isRenderTarget": false,
+        "renderTargetSize": 0,
+        "mirrorPlane": null,
+        "renderList": null,
+        "animations": []
+      },
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "lightmapTexture": null,
+      "useLightmapAsShadowmap": false,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null,
+      "useSpecularOverAlpha": true,
+      "name": "End_Dead02",
+      "id": "048a2f6e-e8a8-4bc4-9431-9171765e78cc",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "alpha": 1.0
+    },
+    {
+      "ambient": [
+        0.588,
+        0.588,
+        0.588
+      ],
+      "diffuse": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "diffuseTexture": {
+        "name": "End_Dead01.jpg",
+        "level": 1.0,
+        "hasAlpha": false,
+        "getAlphaFromRGB": false,
+        "coordinatesMode": 0,
+        "isCube": false,
+        "uOffset": 0.0,
+        "vOffset": 0.0,
+        "uScale": 1.0,
+        "vScale": 1.0,
+        "uAng": 0.0,
+        "vAng": 0.0,
+        "wAng": 0.0,
+        "wrapU": 1,
+        "wrapV": 1,
+        "coordinatesIndex": 0,
+        "isRenderTarget": false,
+        "renderTargetSize": 0,
+        "mirrorPlane": null,
+        "renderList": null,
+        "animations": []
+      },
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "lightmapTexture": null,
+      "useLightmapAsShadowmap": false,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null,
+      "useSpecularOverAlpha": true,
+      "name": "End_Dead01",
+      "id": "cf27f6aa-078b-490b-a8e3-c580e7e0a411",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "alpha": 1.0
+    },
+    {
+      "ambient": [
+        0.588,
+        0.588,
+        0.588
+      ],
+      "diffuse": [
+        0.588,
+        0.588,
+        0.588
+      ],
+      "specular": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissive": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specularPower": 25.6,
+      "diffuseTexture": null,
+      "diffuseFresnelParameters": null,
+      "ambientTexture": null,
+      "opacityTexture": null,
+      "opacityFresnelParameters": null,
+      "reflectionTexture": null,
+      "reflectionFresnelParameters": null,
+      "emissiveTexture": null,
+      "lightmapTexture": null,
+      "useLightmapAsShadowmap": false,
+      "emissiveFresnelParameters": null,
+      "specularTexture": null,
+      "bumpTexture": null,
+      "useSpecularOverAlpha": true,
+      "name": "default",
+      "id": "bce4b078-c6c0-451c-b266-0adaa7beb1dd",
+      "backFaceCulling": true,
+      "wireframe": false,
+      "alpha": 1.0
+    }
+  ],
+  "multiMaterials": [],
+  "particleSystems": null,
+  "lensFlareSystems": null,
+  "shadowGenerators": [],
+  "skeletons": [],
+  "actions": null,
+  "useDelayedTextureLoading": true
+}
